@@ -139,8 +139,6 @@ def nlp_model(nlptext):
     
     print("updated grammar errors list", res) # final updated grammar  erorrs list
     
-
-    
     # 2nd Grammar and spelling checking layer - using Textblob library 
     spellings_checking = TextBlob(nlptext)
 
@@ -442,12 +440,6 @@ def nlp_evaluation_model(candidate_input, input_type,comparison_keys):
 
             else:
                 print('The string contains NO element from the list')
-
-
-
-            
-            
-
 #assigning any default values to function arguments
 candidate_input = 1 
 input_type = 'compound senetences'
@@ -456,8 +448,6 @@ nlptext = 1
 
 nlp_evaluation_model(candidate_input, input_type,comparison_keys)
 words_to_evaluate=1   #any default value
-
-
 #evaluate(words_to_evaluate)
 
 #compound_sentences()
